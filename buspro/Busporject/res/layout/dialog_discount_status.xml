@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_dialog_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="恭喜"
+        android:textColor="#FF0033"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_dialog_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_dialog_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_dialog_price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_dialog_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_dialog_content"
+        android:layout_marginTop="10dp"
+        android:text="本活动最终解释权归朝阳思迈所有" />
+
+    <Button
+        android:id="@+id/dialog_button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_dialog_bottom"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:text="确定" />
+
+</RelativeLayout>

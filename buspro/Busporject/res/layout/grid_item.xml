@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ItemImage_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/item_where" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到站" android:ems="1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/item_bus_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2辆" android:layout_below="@id/item_where" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/ItemIine_frame" android:background="@drawable/line_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/item_bus_number">
+            <ImageView android:id="@id/ItemImage_where" android:background="@drawable/icon_tab_bus_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ItemIine_div" android:layout_width="fill_parent" android:layout_height="19.0dip" android:layout_below="@id/ItemIine_frame">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/line_div" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/ItemImage" android:background="@drawable/gray_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="9.0dip" android:textColor="#ff4b4b4b" android:gravity="center_horizontal" android:id="@id/ItemNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="1" android:layout_below="@id/ItemIine_div" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff4b4b4b" android:gravity="center_horizontal" android:id="@id/ItemText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="1" android:layout_below="@id/ItemNumber" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

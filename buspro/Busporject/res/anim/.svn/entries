@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/res/anim"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="popin.xml"
+   checksum="46ab4427b3766ad54d06d921ac2eba50"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="popinlayout.xml"
+   checksum="5b2b5f2eca8e9274f41c074dd6122893"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_left_in.xml"
+   checksum="7dc4a38f40d41814f265cf13b9703aea"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_left_out.xml"
+   checksum="3920378375627a6173865a4921e89da3"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_right_in.xml"
+   checksum="e1a493a303fe8cb327493e025e2ede97"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_right_out.xml"
+   checksum="01315f3a57f594daaa903e728aae13d9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_up_in.xml"
+   checksum="a4ed21a0f32b1d0cc4e11b19d06a966c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="push_up_out.xml"
+   checksum="9ad13ea3cc578c66f0422a82a829aa2d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="rbm_in_from_left.xml"
+   checksum="0ba55c69ed4edb49044c7e3d0841ca9f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="rbm_in_from_right.xml"
+   checksum="6d496b2875c5432e75c2633bb240f7a0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="rbm_out_to_left.xml"
+   checksum="c436167e50c89b8130a3a4b20a4a565c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="rbm_out_to_right.xml"
+   checksum="e74a6158b43b9c8b1b598fb9489f27c3"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="syncwaitstatus.xml"
+   checksum="540dfa0964d7fced59a6115473e7c6f5"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_share_popup_enter.xml"
+   checksum="38b21dc5826f8993b7b8953a2c7e7b0b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_share_popup_exit.xml"
+   checksum="908aa90b69adc1f6896073f1ec31d59c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_fade_in.xml"
+   checksum="4e55c0c11379f67118735a2d73021cf0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_fade_out.xml"
+   checksum="bba40a9f9c3820e20dc1567091f0aaa2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_progressbar.xml"
+   checksum="52ccc12a7755ec6fc1c79be5ec0c7d6a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_push_down_out.xml"
+   checksum="b72a784acaab51a3e6fd133206858c74"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_push_up_in.xml"
+   checksum="4b3ac0d2f1b78074383a2c9e28179918"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_push_up_out.xml"
+   checksum="08bf468beb46fc253a56141a1bb0c462"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_in_from_bottom.xml"
+   checksum="ad4ed5af2e3b9e1f3f043874a58457d9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_in_from_left.xml"
+   checksum="8a3b28257cc37f20d4b3de5fc37a5c50"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_in_from_right.xml"
+   checksum="424f3deadfb9f14ef662bfbea89b3ad0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_in_from_top.xml"
+   checksum="b3a6831ed0082ed41217d924e1de5b82"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_out_from_bottom.xml"
+   checksum="1cc2c71ec5beed238784a691fcf8d1c2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_out_from_left.xml"
+   checksum="933048b896b1562791e714d20e963b1c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_out_from_right.xml"
+   checksum="cf08f9b00ecd74947cefc8752dd5b74b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_slide_out_from_top.xml"
+   checksum="1e41f0d077919ad75afac76ddbcf5404"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_zoom_in.xml"
+   checksum="6150fe205d33a5e35873cfdbeb5dff08"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="umeng_xp_zoom_out.xml"
+   checksum="b23366ab873931306eb8f52361c37b00"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

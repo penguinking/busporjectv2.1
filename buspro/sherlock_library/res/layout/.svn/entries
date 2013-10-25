@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/JakeWharton-ActionBarSherlock-e5c2d1c/library/res/layout"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_bar_home.xml"
+   checksum="a9ccd82e5c7ab693814e381bd82fafa1"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_bar_tab.xml"
+   checksum="906c789ce6d2d045af07c30f04534188"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_bar_tab_bar_view.xml"
+   checksum="8edcd6e4318687c281b6a936865e0866"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_bar_title_item.xml"
+   checksum="76acc56cfe6b00776256b3d0f3589bda"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_menu_item_layout.xml"
+   checksum="9c60c7d2f0afa3a5b0467c2e474b927c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_menu_layout.xml"
+   checksum="9e05cee9a31fec1782c6d8aa0b1fb507"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_mode_bar.xml"
+   checksum="60bd5e43badad955b0eae50cbd19e390"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__action_mode_close_item.xml"
+   checksum="694ed57d0f7018a408a6b80125544c71"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__activity_chooser_view.xml"
+   checksum="54069880cf6ef06080e610ee97fba6ee"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__activity_chooser_view_list_item.xml"
+   checksum="1220ec2596cdac41f9d56cb3900fa2df"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__dialog_title_holo.xml"
+   checksum="0bcc8be6344f0f5ca0b21b1fb1fd0afa"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_menu_item_checkbox.xml"
+   checksum="9b53270e7f5d5870fcb6609c969ac24d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_menu_item_icon.xml"
+   checksum="6067823a2587147f11164a203250ae1e"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_menu_item_layout.xml"
+   checksum="a96be0ba1f3ec4b66764c5a9cb61f498"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_menu_item_radio.xml"
+   checksum="1a83da517de159567b9f99952c7602fa"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__popup_menu_item_layout.xml"
+   checksum="4655b2473e165cb8a902eb6e8e78391d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__screen_action_bar.xml"
+   checksum="b6955e82c00c709d19da63a01b636f0a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__screen_action_bar_overlay.xml"
+   checksum="d1faa57467be640a3c686d5174c5a84a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__screen_simple.xml"
+   checksum="e3c423f2fe4dbb05c78c4f614a7a8bed"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__screen_simple_overlay_action_mode.xml"
+   checksum="921cb213be8aed5d5759a7a12537e533"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__search_dropdown_item_icons_2line.xml"
+   checksum="5b4eb21ea4c0e43419745baeb7d282c0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__search_view.xml"
+   checksum="125c3c4c0fed3c2afe7a99c093faefc6"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__simple_dropdown_hint.xml"
+   checksum="b7bcc8424549d047b4a014f869819458"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="sherlock_spinner_dropdown_item.xml"
+   checksum="32617976f05f7656aea2ea50bec2bbaf"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="sherlock_spinner_item.xml"
+   checksum="262a0c4a410496300dc7025fcd64a508"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

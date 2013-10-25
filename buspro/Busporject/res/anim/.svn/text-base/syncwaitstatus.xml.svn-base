@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame01" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame02" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame03" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame04" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame05" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame06" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame07" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame08" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame09" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame10" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame11" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame12" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame13" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame14" />
+    <item android:duration="100" android:drawable="@drawable/icon_sync_154x154_frame15" />
+    <item android:duration="1000" android:drawable="@drawable/icon_sync_154x154_frame16" />
+</animation-list>

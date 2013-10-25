@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/qs_frame" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/qs_tophead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/pagehead" />
+    <LinearLayout
+android:focusable="true"
+android:focusableInTouchMode="true"
+android:layout_width="0px"
+android:layout_height="0px"/>
+    <RelativeLayout android:id="@id/qs_query_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/qs_tophead">
+        <include android:id="@id/qs_typehead" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true" layout="@layout/queryhead" />
+        <RelativeLayout android:id="@id/qs_radioGroup1" android:background="@drawable/img_content_top_bg" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/qs_typehead">
+            <RelativeLayout android:id="@id/qs_tophead2" android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignTop="@id/qs_btn_search" android:layout_alignBottom="@id/qs_btn_search">
+                <TextView android:textSize="16.0dip" android:gravity="center_vertical" android:id="@id/lqc_queryHint" android:background="@drawable/main_edittext_bg_n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:singleLine="true" android:layout_toLeftOf="@id/qs_btn_search" android:layout_centerVertical="true" />
+
+                <ImageButton
+                    android:id="@id/qs_talk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/voice_mode_btn"
+                    android:onClick="talk1" />
+
+                <EditText
+                    android:id="@id/lqc_queryParam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_toRightOf="@id/qs_talk"
+                    android:background="@null"
+                    android:hint="请输入线路"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textSize="16.0dip" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@id/qs_btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/search_btn"
+                android:onClick="search" />
+
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/qs_radioGroup1">
+            <LinearLayout android:orientation="vertical" android:id="@id/history_list_dest" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/qs_list_dest" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/history_dotline" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/history_list_line" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+                <ListView
+                    android:id="@id/qs_list_cy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="0.80"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@drawable/history_dotline"
+                    android:dividerHeight="1.0px" />
+
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/history_list_stop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/qs_list_stop" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/history_dotline" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+       
+    </RelativeLayout>
+  
+
+     
+</RelativeLayout>

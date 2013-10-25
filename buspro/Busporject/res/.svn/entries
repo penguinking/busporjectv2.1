@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/res"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="52"
+   kind="dir"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="anim"
+   kind="dir"/>
+<entry
+   name="color"
+   kind="dir"/>
+<entry
+   name="drawable"
+   kind="dir"/>
+<entry
+   name="drawable-hdpi"
+   kind="dir"/>
+<entry
+   name="drawable-ldpi"
+   kind="dir"/>
+<entry
+   name="drawable-mdpi"
+   kind="dir"/>
+<entry
+   name="drawable-xhdpi"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="raw"
+   kind="dir"/>
+<entry
+   name="values"
+   kind="dir"/>
+<entry
+   name="values-sw600dp"
+   kind="dir"/>
+<entry
+   name="values-sw720dp-land"
+   kind="dir"/>
+<entry
+   name="values-v11"
+   kind="dir"/>
+<entry
+   name="values-v14"
+   kind="dir"/>
+<entry
+   name="values-zh"
+   kind="dir"/>
+<entry
+   name="xml"
+   kind="dir"/>
+</wc-entries>

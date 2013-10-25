@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/res/drawable-mdpi"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="20"
+   kind="dir"
+   committed-date="2013-05-15T03:15:03.750976Z"/>
+<entry
+   name="car_car.png"
+   checksum="af53b5ac5887afb81030028f9faeb24a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="car_police.png"
+   checksum="d46660b1965f0410433867c65df353cc"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:51.000000Z"/>
+<entry
+   name="car_rent.png"
+   checksum="5bc94dda67848b4468564b12caabefbb"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="chevron_default.png"
+   checksum="259fe016391d640331aa108822e0a94c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="chevron_default_down.png"
+   checksum="6050b6d566c47c06574c4d8aa198a799"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:51.000000Z"/>
+<entry
+   name="chevron_white.png"
+   checksum="22367c2e04c40d9200ba7d3c4b2781e7"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="chevron_white_down.png"
+   checksum="d6af42deae2eba724b10b35767a58e83"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_divider.9.png"
+   checksum="ff3cfec21b2bc6f195bf90ea72a54cb8"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_selected.9.png"
+   checksum="62d14ad3e7d8a8393d70658e23eed02a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_selected_focused.9.png"
+   checksum="2856bed4258e1f18712e46c66baf981d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_selected_pressed.9.png"
+   checksum="89ef64794998fe7a3ee8d611baf95755"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_unselected.9.png"
+   checksum="7231ade62939fef597f2eebc636181cb"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_unselected_focused.9.png"
+   checksum="a70d6357b0bd6ebc395de6977c165e41"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="custom_tab_indicator_unselected_pressed.9.png"
+   checksum="18ee267c4b8cc05e5e91d72e62fb2179"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="66833cd53180d3d04ba2a4f319510d41"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_actionbar_list.png"
+   checksum="8c59d53962f05f513ed602c9961a2b6c"
+   last-author="liupeng"
+   committed-rev="20"
+   text-time="2013-05-15T03:15:03.000000Z"
+   kind="file"
+   committed-date="2013-05-15T03:15:03.750976Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_app.png"
+   checksum="c461df3f314b975cffe867c7879d241c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_bus.png"
+   checksum="4856214e57d82b106cc2bc7f6369c152"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_bus_maintab.png"
+   checksum="f8c15133b5eab6719963f28a560092dd"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_bus_tab.png"
+   checksum="ee27b370f8b152b5718789d536bde72f"
+   last-author="liupeng"
+   committed-rev="3"
+   text-time="2013-05-14T06:47:48.000000Z"
+   kind="file"
+   committed-date="2013-05-14T06:47:48.299804Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_car.png"
+   checksum="4b44275c5f852bc8fff558a0415c3d9a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_convenient.png"
+   checksum="38d3e3b714d13cb9fb177eee9810fbdb"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_life.png"
+   checksum="9a393f9065ec9df27a3bb7cc2ac1b505"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_markf.png"
+   checksum="d8b1ff315066cec456601e1a7ceaf6c9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_shop.png"
+   checksum="f51d3a80cadd9ca8d820d674504b0cc0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_travel.png"
+   checksum="5d5219d6731b1cd16b45362b2530ef70"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="icon_work.png"
+   checksum="5e1ca94475c1f51ee043bdfde99a4ab3"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="main_title_bg.9.png"
+   checksum="95d6e40e4bf23b96bbf2dead5c8078cb"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="nav_bg_blue.png"
+   checksum="9b906096785a68d5b2aadf6dc386870b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="sel_bg.png"
+   checksum="dc7c43f7990fba4fa0ca4610b4e2a3c2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="shop_gift.png"
+   checksum="d2237bf8b5711cef48db7050ecb05237"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="shop_gift2.png"
+   checksum="89b3db2966e92077845e2632946adf1d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="shop_kid.png"
+   checksum="eabd4d72c8c17ffb75e118d3201628fd"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="vpi__tab_selected_focused_holo.9.png"
+   checksum="16638bf739aa1abf15c8e75508a27bda"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="vpi__tab_selected_holo.9.png"
+   checksum="9045d003185b579c07849179554b8aef"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="vpi__tab_selected_pressed_holo.9.png"
+   checksum="29ee1e8a487e780621080232838c0d55"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="vpi__tab_unselected_focused_holo.9.png"
+   checksum="4cc56af9c5566fbde9941ab989920a48"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:51.000000Z"/>
+<entry
+   name="vpi__tab_unselected_holo.9.png"
+   checksum="ea8438d5b1eed3300d1472ee18094ad9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+<entry
+   name="vpi__tab_unselected_pressed_holo.9.png"
+   checksum="8dc72eef80eeac76dbe42efa6ace53ac"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:52.000000Z"/>
+</wc-entries>

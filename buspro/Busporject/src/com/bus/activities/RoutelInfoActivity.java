@@ -1,0 +1,172 @@
+package com.bus.activities;
+
+import logic.WaitLogic;
+
+import com.bus.customized.AlwaysMarqueeTextView;
+import com.bus.customized.BusInfoView;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.app.Activity;
+import android.content.Intent;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+
+/**
+ * 候车查询
+ * @author Administrator
+ *
+ */
+public class RoutelInfoActivity extends Activity {
+	
+	
+	String route;
+	String station;
+	com.bus.customized.BusInfoView  biv;	
+	TextView stopName;//下方显示的信息
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.realtimelineinfo);
+		
+		/**图片缓存
+				imageCacheManager = ImageCacheManager.getImageCacheService(this,
+						ImageCacheManager.MODE_FIXED_MEMORY_USED, "memory");
+				imageCacheManager.setMax_Memory(1024 * 1024);
+
+		SharedPreferences shared=getSharedPreferences("ad",Context.MODE_PRIVATE);
+		
+		ImageView  bg1=  (ImageView) this.findViewById(R.id.view_bg1);	
+		new DownloadTask(bg1)
+		.execute(Config.imgurl+shared.getString("ad_9", ""));
+		
+		ImageView  bg2=  (ImageView) this.findViewById(R.id.view_bg2);	
+		new DownloadTask(bg2)
+		.execute(Config.imgurl+shared.getString("ad_10", ""));
+		
+		ImageView  bg3=  (ImageView) this.findViewById(R.id.view_bg3);	
+		new DownloadTask(bg3)
+		.execute(Config.imgurl+shared.getString("ad_11", ""));**/
+		
+		
+		Intent intent1 = getIntent();//获得自身
+		String [] zpnames=intent1.getStringArrayExtra("zpnames");	
+		
+		station=intent1.getStringExtra("zpname");
+		route=intent1.getStringExtra("xl");
+		
+		//获取站点显示控件
+		com.bus.customized.AlwaysMarqueeTextView stopnameView=(AlwaysMarqueeTextView) this.findViewById(R.id.ql_rtli_stopname);		
+		stopnameView.setText("当前站点：" +station+"【"+route+"路】");
+		
+		TextView zd0view=  (TextView) this.findViewById(R.id.ql_rtli_lineinfo0);
+		TextView zd1view= (TextView) this.findViewById(R.id.ql_rtli_lineinfo1);
+		stopName=  (TextView) this.findViewById(R.id.ql_rtli_prevstopname);//下方显示 
+		
+			
+		zd0view.setText(zpnames[0]);
+		zd1view.setText(zpnames[zpnames.length-1]);
+		
+		biv= (BusInfoView) this.findViewById(R.id.ql_realtline);
+		biv.setStations(zpnames);
+		biv.setStation(station);
+		
+		//空格占位，产生滚动条
+		
+		//计算长度
+		int space=40;//间距
+		int startXPoint=4;//初始位置 
+        int lenth=   (zpnames.length) * space+startXPoint;        
+		TextView kgt=  (TextView) this.findViewById(R.id.edit);
+		kgt.setWidth(lenth);
+		
+		Thread workerThread = new Thread(new WaitLogic(new MyHandler(),route,station));        
+		workerThread.start();		
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		//getMenuInflater().inflate(R.menu.activity_routel_info, menu);
+		return true;
+	}
+	
+	
+	//刷新
+	public void refreshInfo(View v)
+	{
+		Toast toast = Toast.makeText(this
+				.getApplicationContext(), "正在更新信息请稍后", Toast.LENGTH_LONG);
+		toast.setGravity(Gravity.CENTER, 0, 0);
+		toast.show();
+		Thread workerThread = new Thread(new WaitLogic(new MyHandler(),route,station));        
+		workerThread.start();
+		//this.biv.setStations(zpnames);
+		//this.biv.setStation(station);
+		
+	}
+	
+	
+	public void appendText(String msg) {
+		String msgx[];//下方显示信息
+		
+		int bus0=0;//线路车辆运营情况
+		int bus1=0;
+		
+		msgx=  msg.split(";");
+		
+		int x=msgx[0].indexOf("@");		
+		if(x>0)
+		{			
+			bus0= Integer.parseInt( msgx[0].substring(x+1 ));
+			System.out.println("bus0 "+bus0);
+			msgx[0]="下行车"+msgx[0].substring(0, x);				
+			//biv.setBuses(buses);			
+			biv.setBus0(bus0);
+			biv.invalidate();//刷新view
+		}else
+		{
+			bus0=0;		
+		}
+		
+		//如果有下行信息
+		if(msgx.length==2)
+		{
+			x=msgx[1].indexOf("@");		
+			if(x>0)
+			{			
+				bus1= Integer.parseInt( msgx[1].substring(x+1 ));			
+				msgx[1]="上行车"+msgx[1].substring(0, x);				
+				//biv.setBuses(buses);		
+				biv.setBus1(bus1);
+			}else
+			{
+				bus1=0;		
+			}	
+			stopName.setText(msgx[0]+" "+msgx[1]);
+		}else
+		{
+			stopName.setText(msgx[0]);			
+		}
+		
+		int screenWidth  = getWindowManager().getDefaultDisplay().getWidth(); 
+		biv.scrollTo(biv.getPyl()-screenWidth/2, 0);
+		
+    }
+    
+    class MyHandler extends Handler {        
+    	@Override
+    	public void handleMessage(Message msg) {			       
+			// 更新UI
+			appendText(msg.getData().getString("message"));		
+    	}    	
+    }
+		
+
+}

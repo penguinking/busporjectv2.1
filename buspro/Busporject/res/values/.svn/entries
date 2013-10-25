@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/res/values"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="52"
+   kind="dir"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="arrays.xml"
+   checksum="1fa0b1b9acf6e6818efeb48f19dcf828"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="attrs.xml"
+   checksum="2ec47c54a87cbf9095651ef2efd28f47"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="colors.xml"
+   checksum="5a67367d24a1fd97024ebb5834b5533b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="dimens.xml"
+   checksum="27610ce90193350d49bef5c0917b0c74"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="dimensions.xml"
+   checksum="c962c5a12ff2f4cbfef50a9816b52022"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ids.xml"
+   checksum="a94ff46aab41ce74f3e2dfb0eda538ce"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="new_sherlock_theam.xml"
+   checksum="717683e41902de54c3e129d3990de670"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="public.xml"
+   checksum="89cca7327b6444175e7881e67204ad43"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="strings.xml"
+   checksum="85ac6b1212cf03a081098b4aa1fdeb08"
+   last-author="lou"
+   committed-rev="52"
+   text-time="2013-05-17T08:22:55.000000Z"
+   kind="file"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="styles.xml"
+   checksum="4634a451b453a11f2e5e11a4ef1200ed"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="vpi__attrs.xml"
+   checksum="860f7fc52a123ba3711701029140ff83"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="vpi__colors.xml"
+   checksum="a8e585d822bdbab32fd85132eed7cbb3"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="vpi__defaults.xml"
+   checksum="b42f0020ee98146d6c8d78b7edfa5e62"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="vpi__styles.xml"
+   checksum="7882b258111cdefbde858ebe63bb2370"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

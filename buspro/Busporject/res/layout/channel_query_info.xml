@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/ad_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+    
+
+    <com.bus.activities.RibbonMenuView
+        android:id="@+id/ribbonMenuView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.bus.activities.RibbonMenuView>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bus.activities"
+    android:versionCode="227"
+    android:versionName="2.2.7" >
+
+    <!--
+ android:name="com.bus.activities.DemoApplication"
+ android:name="com.bus.activities.ApplicationLocation"
+    -->
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name" 
+        android:name="com.bus.activities.JPushApplication">
+        <activity
+            android:name="com.bus.activities.LogoActivity"
+            android:label="@string/title_activity_logo"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bus.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/StyledIndicators"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.QueryActivity"
+            android:label="@string/title_activity_query"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.TransFragment"
+            android:label="@string/title_activity_trans"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.RoutelInfoActivity"
+            android:label="@string/title_activity_routel_info"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.AgreementActivity"
+            android:label="@string/about_app_agreement"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.LineInfoActivity"
+            android:label="@string/title_activity_line_info"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.TransInfoActivity"
+            android:label="@string/title_activity_trans_info"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="org.androidpn.client.NotificationDetailsActivity"
+            android:label="Notification Details"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="org.androidpn.client.NotificationSettingsActivity"
+            android:label="Notification Settings"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="com.bus.activities.BusChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.ShopChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.AppChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.TravelChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.LifeChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.LifeFoodChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.LifeFunnyChannel" >
+        </activity>
+        <activity android:name="com.bus.activities.CarChannel" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.ChannelQueryInfo"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.WebPageViewActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.BreakRuleInfo"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.ShopMapInfoActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.MoreActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bus.music.MainList"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.SettingActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.music.CloudMusicActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.LocationSettingActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.LocationCityActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.LocationCountryActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.WebPageView2Activity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.DiscountActivity"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.BusinessContact"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.JPushInfoActivity"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.CustomDialog"
+            android:theme="@style/Theme.NewSherlock" >
+        </activity>
+
+        <service
+            android:name="com.bus.activities.AdService"
+            android:enabled="true"
+            android:label="AdService" >
+            <intent-filter>
+                <action android:name="com.bus.activities.AdService" />
+            </intent-filter>
+        </service>
+        <service 
+            android:name="service.UpdateService"
+            android:enabled="true"
+            android:label="UpdateService"
+           	>
+            <intent-filter >
+                <action android:name="service.UpdateService" />
+            </intent-filter>
+        </service>e
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="c590eed8cf809dd7f8b8ad8b" />
+
+        <!--
+			<meta-data android:name="ANDROIDPN_API_KEY"
+			android:value="1234567890" />
+        -->
+        <receiver android:name="org.androidpn.client.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.bus.activities.NewsInfoActivity"
+            android:label="@string/title_activity_news_info" >
+        </activity>
+        <activity
+            android:name="com.bus.activities.KeyunActivity"
+            android:label="@string/title_activity_keyun"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.bus.activities" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+ <!-- Required  显示通知栏 -->
+                <category android:name="com.bus.activities" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+        
+         <!-- 用户自定义的广播接收器-->
+        <receiver
+            android:name="com.bus.activities.JPushReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!--Required  用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />  
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!--Required  用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!--Required  用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!--Optional 用户接受Rich Push Javascript 回调函数的intent-->
+                <category android:name="com.bus.activities" />
+            </intent-filter>
+        </receiver>
+ 
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.bus.activities.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>  
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-sdk android:minSdkVersion="8" >
+    </uses-sdk>
+
+    <permission
+        android:name="com.bus.activities.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+</manifest>

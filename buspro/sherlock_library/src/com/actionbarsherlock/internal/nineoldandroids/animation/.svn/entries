@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/JakeWharton-ActionBarSherlock-e5c2d1c/library/src/com/actionbarsherlock/internal/nineoldandroids/animation"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="Animator.java"
+   checksum="17d7de8b93804319cc0c89ef4cd98a4f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="AnimatorListenerAdapter.java"
+   checksum="e087a467f5d9709348880b505168e9a2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="AnimatorSet.java"
+   checksum="755c34d30b250d4ba46f38ab5e7a8e4f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="FloatEvaluator.java"
+   checksum="938a819e030975771a9529ebefae26a1"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="FloatKeyframeSet.java"
+   checksum="75b30c5c435e83877aad557d5b97dc7d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="IntEvaluator.java"
+   checksum="7b539e9fb78eb027ef75605b111b9801"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="IntKeyframeSet.java"
+   checksum="8c3049dc88708c51beb7b76d570b4d1b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="Keyframe.java"
+   checksum="7f1950e84324fc58d5e59407826a3266"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="KeyframeSet.java"
+   checksum="ca5c48615f1926f19c1a8563cb5f52da"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ObjectAnimator.java"
+   checksum="705933ec7187d991de395e306b21a636"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="PropertyValuesHolder.java"
+   checksum="70b39f00e599c0bc17500a269b58ade6"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="TypeEvaluator.java"
+   checksum="42c668493e1a8e3563753e1e663dd355"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ValueAnimator.java"
+   checksum="fe54578a8b5bd9a4ea993852d0bcf3c7"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

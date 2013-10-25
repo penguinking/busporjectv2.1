@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0EEE0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/message_top"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_gravity="top"
+        android:background="@drawable/main_title_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/commonTextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:foregroundGravity="fill_vertical|center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffd3d3d3" >
+
+        <br.com.dina.ui.widget.UITableView
+            android:id="@+id/lifechannel_tv"
+            style="@style/UITableView" />
+    </ScrollView>
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/life_channel_ad"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" />
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+package com.bus.activities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import logic.UrlUtil;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import com.loopj.android.image.SmartImageView;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageButton;
+
+public class CoachQueryFragment extends Fragment{
+	
+	EditText dst_addr;
+	View alertView;
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+	    View rootView = inflater.inflate(R.layout.query_travel_channel,
+                container, false);
+	    
+	    alertView = inflater.inflate(R.layout.activity_query,null);     
+	    
+	    
+	    dst_addr =(EditText)rootView.findViewById(R.id.lqc_queryParam);
+	    String str_hint = getString(R.string.dst_addr).toString();
+	    dst_addr.setHint(str_hint);
+	    dst_addr.setText("北京");
+	    
+	    SmartImageView channelAd = (SmartImageView) rootView.findViewById(R.id.common_ad);
+	    int id = getResources().getIdentifier("ad_test", "drawable", getActivity().getPackageName());
+		channelAd.setImageResource(id);
+		
+		
+		ImageButton ibutton =(ImageButton)rootView.findViewById(R.id.qs_btn_search);
+		ibutton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				//EditText dst_addr =(EditText)v.findViewById(R.id.lqc_queryParam);
+				String zhongdianzhan= dst_addr.getText().toString();			
+								
+				//Thread workerThread = new Thread(new logic.KeyunLogic(new MyHandler(),zhongdianzhan));        
+				//workerThread.start();	
+				
+				String url="http://221.202.84.168:8080/handbus/searchKeyunList";			
+				
+				UrlUtil uu=new UrlUtil();
+		        List<NameValuePair> params = new ArrayList<NameValuePair>();
+		        
+		        params.add(new BasicNameValuePair("zhongdianzhan", zhongdianzhan));	        
+		        String str=uu.doPost(url, params);
+		        
+				if(str!=null && !str.equals("error") ){			
+					String[] keyunstr= str.split("#");				
+					String[] kuaike=new String[0];
+					if(keyunstr.length>0){
+						kuaike=keyunstr[0].split(";");
+					}
+					
+					String[] puke=  new String[0];
+					if(keyunstr.length>1){
+						puke=keyunstr[1].split(";");
+					}
+					
+					Intent intent = new Intent(getActivity(),KeyunActivity.class);  //从启动动画ui跳转到主ui	   				
+					intent.putExtra("title", zhongdianzhan);	
+					intent.putExtra("kuaike", kuaike);
+					intent.putExtra("puke", puke);
+					
+					startActivity(intent);	
+					
+				}
+						        
+				
+						
+			}
+		});
+		
+		
+	    return rootView;
+	}
+	
+	private void show(String title,String []kuaike,String []puke)
+	{
+		Intent intent = new Intent(getActivity(),KeyunActivity.class);  //从启动动画ui跳转到主ui	   				
+		intent.putExtra("title", title);	
+		intent.putExtra("kuaike", kuaike);
+		intent.putExtra("puke", puke);
+		
+		startActivity(intent);			
+	}
+	
+	
+	 class MyHandler extends Handler {   
+	    	@Override
+	    	public void handleMessage(Message msg) {			       
+				// 更新UI
+	    		//String error=msg.getData().getString("error");
+	    		
+	    		
+	    		//if(error.equals("true"))
+	    		//{    
+	    		//	showErr();
+	    			
+	    			/*
+	    			TextView text = (TextView) alertView.findViewById(R.id.search);         
+	    	        text.setText("无法连接远程服务器");
+	    	        
+	    			new AlertDialog.Builder(getActivity())  
+	    	        .setIcon(R.drawable.bus)  
+	    	        .setTitle("客运查询 ") 
+	    	        .setView(alertView)
+	    	        .setPositiveButton("确定", new DialogInterface.OnClickListener() {  
+	    	            @Override  
+	    	            public void onClick(DialogInterface dialog, int which) {  
+	    	                // TODO Auto-generated method stub  
+	    	            }  
+	    	        }).show();      			
+	    			*/
+	    			
+	    			
+	    			
+	    		//}else
+	    		//{
+	    			String title=msg.getData().getString("title");
+	    			
+	    			String[] kuaike=msg.getData().getStringArray("kuaike");
+	    			String[] puke=msg.getData().getStringArray("puke");
+	    			
+	    			show(title,kuaike,puke);
+	    			
+	    		//}
+	    		
+	    		
+	    	}    	
+	  }
+	
+}

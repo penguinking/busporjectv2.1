@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundactivity" >
+
+
+    <LinearLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/tv_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="20dp"
+            android:text="@string/phone_number" />
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="20dp"
+            android:src="@drawable/channel_list_bottom_1" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_400_layout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_layout"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/tv_phone_400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:text="@string/phone_400" />
+
+        <TextView
+            android:id="@+id/tv_phone_number_400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="20dp"
+            android:text="@string/phone_number_400" />
+
+        <ImageView
+            android:id="@+id/iv_phone_400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="22dp"
+            android:src="@drawable/channel_list_bottom_1" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weixin_layout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_400_layout"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/tv_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.5"
+            android:text="@string/weixin" />
+
+        <TextView
+            android:id="@+id/tv_weixin_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.5"
+            android:paddingLeft="5dp"
+            android:text="@string/weixin_code" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qq_layout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weixin_layout"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:text="@string/QQ" />
+
+        <TextView
+            android:id="@+id/tv_qq_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="30dp"
+            android:text="@string/QQ_code" />
+    </LinearLayout>
+
+</RelativeLayout>

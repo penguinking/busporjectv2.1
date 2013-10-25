@@ -1,0 +1,187 @@
+package adapter;
+
+
+
+import com.bus.activities.R;
+import com.bus.activities.WebPageViewActivity;
+
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.loopj.android.image.SmartImageView;
+
+public class ShopListAdapter extends BaseAdapter {
+
+	private Context context;//上下文
+	private String [] shopList;//站点集合
+	private LayoutInflater inflater;//布局填充器
+	private ViewHolder holder;//声明ViewHolder类
+
+	
+	//构造函数
+	public ShopListAdapter(Context context,String [] shopList) {
+		this.context = context;
+		this.shopList = shopList;
+		//实例化LayoutInflater
+		inflater = LayoutInflater.from(context);
+	}	
+	
+	@Override
+	public int getCount() {
+		// TODO Auto-generated method stub
+		return shopList.length;
+	}
+
+	@Override
+	public Object getItem(int arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public long getItemId(int arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public View getView(int position, View convertView,ViewGroup parent) {
+		// TODO Auto-generated method stub
+			convertView = inflater.inflate(R.layout.common_list_item, null);
+			holder = new ViewHolder();
+			//获得各个控件的实例
+			holder.txtQuerytitle = (TextView) convertView.findViewById(R.id.querytitle);
+			holder.txtQuerysummary= (TextView) convertView.findViewById(R.id.querysummary);
+			holder.imgQueryimg=(SmartImageView)convertView.findViewById(R.id.queryimg);
+			holder.imgQueryimg_phone=(RadioButton)convertView.findViewById(R.id.dial_btn);
+			//holder.imgQueryimg_map=(RadioButton)convertView.findViewById(R.id.map_btn);
+			holder.imgQueryimg_info=(RadioButton)convertView.findViewById(R.id.info_btn);
+			View toolbar = convertView.findViewById(R.id.toolbar);
+			((LinearLayout.LayoutParams) toolbar.getLayoutParams()).bottomMargin = -50;
+			toolbar.setVisibility(View.GONE);
+			convertView.setTag(holder);					
+		String str= shopList[position];
+		//设置内容
+		String ss[]=str.split(",");
+		if(ss.length>5){
+			holder.txtQuerytitle.setText(ss[4]);		
+			holder.txtQuerysummary.setText(ss[3]);
+			
+			//holder.imgQueryimg.setImageResource(R.drawable.ad_list_img);
+			holder.imgQueryimg_info.setTag(R.id.tag_1,ss[0]);//带订单ID
+			holder.imgQueryimg_info.setTag(R.id.tag_2,ss[4]);//带订单ID
+			
+			
+			//holder.imgQueryimg_map.setTag(R.id.tag_1, ss[4]);//名称
+			//holder.imgQueryimg_map.setTag(R.id.tag_2, ss[3]);//地址
+			
+			if(ss.length>8){
+				//holder.imgQueryimg_map.setTag(R.id.tag_3, ss[8]);//纬度
+				//holder.imgQueryimg_map.setTag(R.id.tag_4, ss[9]);//纬度
+			}
+			//holder.imgQueryimg.seti
+			
+			
+			try {		     
+			     //byte[] data=NetTool.getImage("http://mobile.bizinfocus.com/"+ss[2]);
+			     //Bitmap bm=BitmapFactory.decodeByteArray(data, 0, data.length);			    
+			     holder.imgQueryimg.setImageUrl("http://mobile.bizinfocus.com/"+ss[2]);
+			     //System.out.println("@@@@http://cybus.bizinfocus.com/"+ss[2]);
+			     if(holder.imgQueryimg==null){
+			    	 holder.imgQueryimg.setImageResource(R.drawable.ad_list_img);
+			     }
+			} catch (Exception e) {
+			    
+			}
+			if(ss.length>6){
+				holder.imgQueryimg_phone.setTag(ss[6]);
+			}
+		}else{
+			holder.txtQuerytitle.setText("频道建设中，感谢您的关注");
+			holder.txtQuerysummary.setText("频道联系电话:0421-2610873");
+			holder.imgQueryimg_phone.setTag("0421-2610873");
+		}
+		//拨打电话
+		holder.imgQueryimg_phone.setOnClickListener(new View.OnClickListener() {  
+            @Override  
+            public void onClick(View v) {  
+                String phone=(String)v.getTag();
+                if(!phone.equals("")){
+            	Uri uri=Uri.parse("tel:"+phone.replace(" ", ""));
+            	Intent intent=new Intent("android.intent.action.CALL",uri);
+            	intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            	context.startActivity(intent);
+                }else{
+                	Toast.makeText(context, "抱歉，未收录该商户电话信息", 1).show();
+                }
+            	
+            }  
+        });  
+		/**商户地图按钮
+		holder.imgQueryimg_map.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(); 
+		        intent.setClass(context, ShopMapInfoActivity.class); 
+		        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		        
+		        //添加参数
+		        intent.putExtra("name", (String)v.getTag(R.id.tag_1));
+		        intent.putExtra("address", (String)v.getTag(R.id.tag_2));
+		        intent.putExtra("weidu", (String)v.getTag(R.id.tag_3));
+		        intent.putExtra("jingdu", (String)v.getTag(R.id.tag_4));
+		        
+		        context.startActivity(intent);
+			}
+		});
+		**/
+		holder.imgQueryimg_info.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+								
+				Intent intent = new Intent();
+				String id2 = (String)v.getTag(R.id.tag_1);
+				if(id2!=null){
+		        intent.setClass(context, WebPageViewActivity.class);
+		        intent.putExtra("id", (String)v.getTag(R.id.tag_1));
+		        intent.putExtra("name", (String)v.getTag(R.id.tag_2));
+		        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		        context.startActivity(intent);
+		        }else{
+		        	Toast.makeText(context, "抱歉，未收录该商户详细信息", 1).show();
+		        }
+				
+		        
+			}
+		});
+		//返回值
+		return convertView;
+		
+	}
+	
+	
+	
+	
+	public final class ViewHolder{
+		public TextView txtQuerytitle;//商家名称 
+		public TextView txtQuerysummary;//地址
+		public SmartImageView imgQueryimg;//地址
+		public RadioButton imgQueryimg_phone;//地址
+		//public RadioButton imgQueryimg_map;//地图
+		public RadioButton imgQueryimg_info;//信息
+	}
+
+}

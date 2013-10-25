@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src/adapter"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="52"
+   kind="dir"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="LineStationAdapter.java"
+   checksum="ffb44ed2b53d4b5bb41a7983b75d4baf"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="QueryListAdapter.java"
+   checksum="c3a20d8557a3478be637cea0309883a0"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ShopListAdapter.java"
+   checksum="068e1c1e01979ddaec8db81ef69a0c92"
+   last-author="lou"
+   committed-rev="52"
+   text-time="2013-05-17T08:22:55.000000Z"
+   kind="file"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="StationAdapter.java"
+   checksum="218e64a97e672889e235697ad2be6d0f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

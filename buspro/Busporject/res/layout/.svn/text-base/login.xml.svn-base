@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/pagehead" />
+    <RelativeLayout android:id="@id/trans_tmp1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <RelativeLayout android:id="@id/trans_tmp2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+                <EditText android:textSize="16.0dip" android:id="@id/login_user" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="请输入管理员账号" android:singleLine="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/trans_tmp3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/trans_tmp2">
+            <RelativeLayout android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+                <EditText android:textSize="16.0dip" android:id="@id/login_pwd" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="请输入密码" android:password="true" android:singleLine="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <Button android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/login_login" android:background="@drawable/icon_right_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录" />
+        <Button android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/login_cancel" android:background="@drawable/icon_right_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

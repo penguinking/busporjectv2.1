@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   revision="54"
+   last-author="liupeng"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/res/raw"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="androidpn.properties"
+   checksum="b43fe147bd6c42b3e69d4355bae1a26b"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="chaoyang"
+   schedule="delete"
+   checksum="b9dba27bc06fca5c55868cc879f7be88"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:47.000000Z"/>
+<entry
+   name="close.wav"
+   checksum="df14a65140ee982c8bebc9acff5f8da9"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:21:47.000000Z"/>
+</wc-entries>

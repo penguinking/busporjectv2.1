@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bus.activities"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    android:clickable="true" >
+
+    <RelativeLayout
+        android:id="@id/ql_rtli_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_top_sitename_bg"
+        android:gravity="center_vertical" >
+
+        <com.bus.customized.AlwaysMarqueeTextView
+            android:id="@id/ql_rtli_stopname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toLeftOf="@id/ql_toggle_direction"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="当前站名"
+            android:textColor="#ffff8400"
+            android:textSize="20.0dip" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ql_rtli_stopname"
+            android:layout_toLeftOf="@id/ql_toggle_direction"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@id/ql_rtli_lineinfo0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="..."
+                android:textColor="#ff4b4b4b"
+                android:textSize="14.0dip" />
+
+            <ImageView
+                android:id="@id/ql_rtli_img_tmpto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:layout_toRightOf="@id/ql_rtli_lineinfo0"
+                android:background="@drawable/jiantou_small" />
+
+            <TextView
+                android:id="@id/ql_rtli_lineinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_toRightOf="@id/ql_rtli_img_tmpto"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="..."
+                android:textColor="#ff4b4b4b"
+                android:textSize="14.0dip" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@id/ql_toggle_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5.0dip"
+            android:background="@drawable/icon_refresh"
+            android:onClick="refreshInfo"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+    <com.bus.customized.BusInfoView
+        android:id="@id/ql_realtline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_ads"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ql_rtli_top"
+        app:info1="一二三"
+        app:info2="xx" >
+
+        <TextView
+            android:id="@id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+    </com.bus.customized.BusInfoView>
+
+    <LinearLayout
+        android:id="@id/ql_rtli_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/img_content_top_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <com.bus.customized.AlwaysMarqueeTextView
+            android:id="@id/ql_rtli_prevstopname"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5.0dip"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="下趟公交到达信息查询"
+            android:textColor="#ff4b4b4b"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@id/ql_rtli_panel_tmp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--
+ <include
+     android:id="@id/main_ads"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_above="@id/ql_rtli_bottom"
+     layout="@layout/view_flipper"
+     android:clickable="true" />
+    -->
+
+</RelativeLayout>

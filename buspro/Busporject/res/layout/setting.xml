@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/setting_tophead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/pagehead" />
+    <com.bus.customized.views.RoundedRectListView android:id="@id/setting_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:cacheColorHint="#00000000" android:divider="#ffddd6ca" android:dividerHeight="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_frame1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您遇到的问题或者改进建议：" />
+        <EditText android:textSize="16.0dip" android:gravity="top" android:id="@id/setting_jy" android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="5.0dip" android:hint="我们将为您不断改进" />
+        <TextView android:textSize="18.0dip" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您的手机号码、邮箱或者QQ：" />
+        <EditText android:textSize="16.0dip" android:id="@id/setting_phone" android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:hint="方便我们给你答复" />
+        <Button android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/setting_tj" android:background="@drawable/cx_bg_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="4.0dip" android:text="提交" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_frame2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <com.bus.customized.views.RoundedRectListView android:id="@id/setting_lv3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/history_dotline" android:dividerHeight="1.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff4b4b4b" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="        智能公交是将手机用户、公交车与移动互联理念相融合的全新产品，将公交服务拓展到用户的手机。用户可以通过自己的手机，随时随地查询各公交车辆的实时位置、上下行方向等信息，方便用户适时安排自己的乘车计划，不用在公交站耗时间，也不用为赶不上最近的一班车而懊恼，或者因此耽误行程，从而大大提高出行效率，充分享受城市信息化带来的智慧化城市生活。" />
+    </LinearLayout>
+</LinearLayout>

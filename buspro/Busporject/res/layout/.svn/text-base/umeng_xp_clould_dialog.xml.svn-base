@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/umeng_xp_web_main" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/umeng_xp_actionBar" android:background="@drawable/umeng_xp_detail_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/umeng_xp_pre" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/umeng_xp_pre_no" android:layout_weight="1.0" />
+        <ImageView android:id="@id/umeng_xp_next" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/umeng_xp_next_no" android:layout_weight="1.0" />
+        <ImageView android:id="@id/umeng_xp_reflesh" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/umeng_xp_jump" android:layout_weight="1.0" />
+        <ImageView android:id="@id/umeng_xp_cancel" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/umeng_xp_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+    <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/umeng_xp_actionBar" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/umeng_xp_loading_view" android:background="#99444444" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@id/umeng_xp_loading" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateDrawable="@drawable/umeng_xp_progressbar" android:layout_centerInParent="true" />
+        <SeekBar android:id="@id/umeng_xp_loading_progress" android:layout_width="186.0dip" android:layout_height="10.0dip" android:layout_marginTop="10.0dip" android:max="100" android:progressDrawable="@drawable/umeng_xp_loading_seek" android:thumb="@null" android:layout_below="@id/umeng_xp_loading" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

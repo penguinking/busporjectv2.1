@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src/com/bus/activities"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="52"
+   kind="dir"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="AboutActivity.java"
+   checksum="46ae23110da38b25a9352bcad7e0f99c"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="AdService.java"
+   checksum="59b36402ba4082e50444bf0c6de89b57"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="AgentQueryFragment.java"
+   checksum="8d4c8ae773bad1afab0257bc7dda4dff"
+   last-author="liupeng"
+   committed-rev="17"
+   text-time="2013-05-15T01:25:05.000000Z"
+   kind="file"
+   committed-date="2013-05-15T01:25:05.476562Z"/>
+<entry
+   name="AirplaneQueryFragment.java"
+   checksum="85a1df2450e963f8d6590eded3955049"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="BaseActivity.java"
+   checksum="4b46075ad08697c4ab329ce4a54711cf"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="BaseFragment.java"
+   checksum="c6fa24edd932518bf84179675f62b28d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="BreakRuleInfo.java"
+   checksum="a28c4eccecbf7c9479ec5f7c638e2799"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="BusChannel.java"
+   checksum="33df4a67f4e652c123afb8e6e6696c34"
+   last-author="liupeng"
+   committed-rev="35"
+   text-time="2013-05-16T01:21:30.000000Z"
+   kind="file"
+   committed-date="2013-05-16T01:21:30.577148Z"/>
+<entry
+   name="CarChannel.java"
+   checksum="b41c80c36d761182d3b4ebd050abf6af"
+   last-author="liupeng"
+   committed-rev="38"
+   text-time="2013-05-16T03:51:33.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:51:33.375617Z"/>
+<entry
+   name="ChannelQueryInfo.java"
+   checksum="a6a1a12e74e1a35e6f56a42447ba98ef"
+   last-author="liupeng"
+   committed-rev="37"
+   text-time="2013-05-16T03:39:32.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:39:32.891242Z"/>
+<entry
+   name="CoachQueryFragment.java"
+   checksum="53036830674e5f28535af304f1c9a316"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="CornerListView.java"
+   checksum="403debae2d57d5656a2a935d928c0e82"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="DBManager.java"
+   checksum="b20078e2721a578f7596a30ee682ba44"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="DemoApplication.java"
+   checksum="1c2acd8f9f266d1d1c92cc8727624a3d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="Exit.java"
+   checksum="ad538257a4b60082a267950b9411f543"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ExpandAnimation.java"
+   checksum="96f024cee7122924ea58391e1f328801"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ICQueryFragment.java"
+   checksum="5c5289c6760472e7d997a60debe6b042"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="IconPageIndicator.java"
+   checksum="dfbf3c676f877fc330eb9100bf613e46"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="IconPagerAdapter.java"
+   checksum="06c846a543d5199470a428b0123415f6"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="IcsLinearLayout.java"
+   checksum="cd9f57f1d5709384e01317fc27a396e8"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="KeyunActivity.java"
+   checksum="942234c0837ba9c111d81e34f2077408"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="LifeChannel.java"
+   checksum="a44af802661f340348c31317280a161f"
+   last-author="liupeng"
+   committed-rev="39"
+   text-time="2013-05-16T03:51:41.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:51:41.422492Z"/>
+<entry
+   name="LineInfoActivity.java"
+   checksum="72c1cf35df1a82fdcff13c4c69eb82c3"
+   last-author="liupeng"
+   committed-rev="40"
+   text-time="2013-05-16T03:51:50.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:51:50.531867Z"/>
+<entry
+   name="LineQueryFragment.java"
+   checksum="c6ef4599fa971a74581b8f2d49a91a51"
+   last-author="liupeng"
+   committed-rev="41"
+   text-time="2013-05-16T03:52:00.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:52:00.969367Z"/>
+<entry
+   name="LogoActivity.java"
+   checksum="c76811a189b4bf8d61f1397a285f1183"
+   last-author="lou"
+   committed-rev="46"
+   text-time="2013-05-16T08:10:33.000000Z"
+   kind="file"
+   committed-date="2013-05-16T08:10:33.992804Z"/>
+<entry
+   name="MainActivity.java"
+   checksum="9144373eee337ab2acb5bb51c63b2eb7"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="NewsInfoActivity.java"
+   checksum="f9dec17f0aee682fa42062fe5fed94a7"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="PageIndicator.java"
+   checksum="aa5911a3c36e27a5202a52d64a49ba95"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="QueryActivity.java"
+   checksum="aa5b4c59fe48d97c866cbb5a97090f9e"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="RibbonMenuView.java"
+   checksum="c63d11a30293b5296b8658abc27aa040"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="RoutelInfoActivity.java"
+   checksum="4837a34876bce69d002c6a73f515be01"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ShopChannel.java"
+   checksum="3faddce41182885071ad9426c6cd02b8"
+   last-author="liupeng"
+   committed-rev="42"
+   text-time="2013-05-16T03:52:10.000000Z"
+   kind="file"
+   committed-date="2013-05-16T03:52:10.875617Z"/>
+<entry
+   name="ShopMapInfoActivity.java"
+   revision="57"
+   checksum="e14c7ba213c72b5c859bd084948609f8"
+   last-author="liupeng"
+   committed-rev="57"
+   text-time="2013-05-18T10:59:23.000000Z"
+   kind="file"
+   committed-date="2013-05-18T11:00:55.596000Z"/>
+<entry
+   name="StationQueryFragment.java"
+   checksum="012f4f372d86e20c4bb6ee13cb906eea"
+   last-author="lou"
+   committed-rev="52"
+   text-time="2013-05-17T08:22:55.000000Z"
+   kind="file"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="TabPageIndicator.java"
+   checksum="6aadda999eb23221e058a7894d6d8cfe"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="TransFragment.java"
+   checksum="3e2a058c77ddc60c949110fb62b63061"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="TransInfoActivity.java"
+   checksum="2d31377988f9e9aa0fe7ef1e6e3fc29a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="TravelChannel.java"
+   checksum="0be16e1828cfc8728cc96d0f0df32455"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="WebPageViewActivity.java"
+   revision="56"
+   checksum="6f0df50e6565770667b5b637fec81ab9"
+   last-author="liupeng"
+   committed-rev="56"
+   text-time="2013-05-18T03:35:21.355468Z"
+   kind="file"
+   committed-date="2013-05-18T03:35:21.355468Z"/>
+<entry
+   name="iRibbonMenuCallback.java"
+   checksum="a5b21a34ebe0638faf303dda060a6b5e"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="52"
+   kind="dir"
+   committed-date="2013-05-17T08:22:55.071289Z"/>
+<entry
+   name="adapter"
+   kind="dir"/>
+<entry
+   name="com"
+   kind="dir"/>
+<entry
+   name="logic"
+   kind="dir"/>
+<entry
+   name="org"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

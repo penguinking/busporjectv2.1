@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/JakeWharton-ActionBarSherlock-e5c2d1c/library/src/com/actionbarsherlock/internal/view"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ActionProviderWrapper.java"
+   checksum="5d3584707ec57b367834151504a75cbf"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="StandaloneActionMode.java"
+   checksum="300555eeb6dc35ac88b49d2fc9a90340"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="View_HasStateListenerSupport.java"
+   checksum="70f6bc9378c984ffaf6c6f188a9ddf6d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="View_OnAttachStateChangeListener.java"
+   checksum="e968c5881d38fc46d8e40b46cb4538f2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="menu"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string" />
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    
+    <declare-styleable name="BusInfoView">
+            <attr name="info1" format="string" />
+            <attr name="info2" format="string" />
+    </declare-styleable>
+</resources>

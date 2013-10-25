@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/trans_frame_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/trans_query_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trans_tophead"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@id/trans_tmp1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip" >
+
+            <RelativeLayout
+                android:id="@id/trans_tmp2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip" >
+
+                <ImageButton
+                    android:id="@id/trans_p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_dw_btn" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/trans_p1"
+                    android:layout_alignTop="@id/trans_p1"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_toLeftOf="@id/trans_p1"
+                    android:background="@drawable/edittext_bg" >
+
+                    <ImageButton
+                        android:id="@id/trans_talk1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/voice_mode_btn" />
+
+                    <EditText
+                        android:id="@id/trans_start"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/trans_talk1"
+                        android:background="@null"
+                        android:hint="请输入出发地"
+                        android:singleLine="true"
+                        android:textSize="16.0dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/trans_tmp2"
+                android:cacheColorHint="#00000000"
+                android:visibility="gone" >
+            </ListView>
+
+            <RelativeLayout
+                android:id="@id/trans_tmp3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/listView1"
+                android:layout_marginTop="5.0dip" >
+
+                <ImageButton
+                    android:id="@id/trans_p2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_dw_btn" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/trans_p2"
+                    android:layout_alignTop="@id/trans_p2"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_toLeftOf="@id/trans_p2"
+                    android:background="@drawable/edittext_bg" >
+
+                    <ImageButton
+                        android:id="@id/trans_talk2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/voice_mode_btn" />
+
+                    <EditText
+                        android:id="@id/trans_end"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/trans_talk2"
+                        android:background="@null"
+                        android:hint="请输入目的地"
+                        android:singleLine="true"
+                        android:textSize="16.0dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/trans_tmp3"
+                android:cacheColorHint="#00000000"
+                android:visibility="gone" >
+            </ListView>
+        </RelativeLayout>
+
+        <Button
+            android:id="@id/trans_query"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trans_tmp1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_marginTop="4.0dip"
+            android:background="@drawable/cx_bg_btn"
+            android:text="查询"
+            android:textColor="@android:color/white"
+            android:textSize="18.0dip" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@id/trans_voice_input_rtn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/trans_query_frame"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/history_dotline"
+        android:dividerHeight="1.0px"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/trans_query_rst_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/trans_tophead"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@id/trans_query_rst_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qs_tophead"
+            android:background="@drawable/img_content_top_bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@id/trans_query_rst_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/history_dotline" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@id/trans_queryrstdesc0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/img_change_start" />
+
+                <TextView
+                    android:id="@id/trans_queryrstdesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:singleLine="true"
+                    android:textColor="#ffff9900"
+                    android:textSize="18.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@id/trans_queryrstdesc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/img_change_dest" />
+
+                <TextView
+                    android:id="@id/trans_queryrstdesc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:singleLine="true"
+                    android:textColor="#ffff9900"
+                    android:textSize="18.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@id/trans_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trans_query_rst_title"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/history_dotline"
+            android:dividerHeight="1.0px" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@id/trans_fan_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trans_tophead"
+        android:cacheColorHint="#00000000"
+        android:clickable="false"
+        android:divider="@drawable/history_dotline"
+        android:dividerHeight="1.0px"
+        android:visibility="gone" />
+
+    <include
+        android:id="@id/trans_select_stops"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/trans_tophead"
+        layout="@layout/select_stops"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/trans_query_frame"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:textSize="20dp" />
+
+</RelativeLayout>

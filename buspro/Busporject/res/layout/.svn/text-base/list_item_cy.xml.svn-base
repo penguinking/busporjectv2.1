@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ff4b4b4b" android:gravity="center_vertical" android:id="@id/licy_lineno" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:singleLine="true" />
+    <ImageView android:id="@id/licy_lines_to" android:background="@drawable/site_upline_nor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff4b4b4b" android:gravity="center_vertical" android:id="@id/licy_linestart" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="70.0dip" android:maxWidth="100.0dip" android:text="11111111111111" android:singleLine="true" android:layout_toLeftOf="@id/licy_lines_to" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff4b4b4b" android:gravity="center_vertical" android:id="@id/licy_lineend" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="2.0dip" android:maxWidth="100.0dip" android:text="22222222222" android:singleLine="true" android:layout_toRightOf="@id/licy_lines_to" />
+    <ImageView android:background="@drawable/chat_next_page_nor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

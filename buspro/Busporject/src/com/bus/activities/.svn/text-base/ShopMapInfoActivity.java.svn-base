@@ -1,0 +1,192 @@
+package com.bus.activities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.actionbarsherlock.app.SherlockActivity;
+import com.baidu.mapapi.BMapManager;
+import com.baidu.mapapi.map.ItemizedOverlay;
+import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.OverlayItem;
+import com.baidu.mapapi.search.MKAddrInfo;
+import com.baidu.mapapi.search.MKBusLineResult;
+import com.baidu.mapapi.search.MKDrivingRouteResult;
+import com.baidu.mapapi.search.MKPoiResult;
+import com.baidu.mapapi.search.MKSearch;
+import com.baidu.mapapi.search.MKSearchListener;
+import com.baidu.mapapi.search.MKSuggestionResult;
+import com.baidu.mapapi.search.MKTransitRouteResult;
+import com.baidu.mapapi.search.MKWalkingRouteResult;
+import com.baidu.platform.comapi.basestruct.GeoPoint;
+
+public class ShopMapInfoActivity extends SherlockActivity {
+	
+	MapView mMapView = null;	// 地图View
+	MKSearch mSearch = null;	// 搜索模块，也可去掉地图模块独立使用
+	
+	String name;//商户名称
+	String address;//商户地址
+	String weidu;//纬度
+	String jingdu ;//经度
+
+	GeoPoint ptCenter;//商户经纬度
+
+
+	
+	
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+        DemoApplication app = (DemoApplication)this.getApplication();
+		if (app.mBMapManager == null) {
+			app.mBMapManager = new BMapManager(this);
+			app.mBMapManager.init(DemoApplication.strKey,new DemoApplication.MyGeneralListener());
+		}
+		setContentView(R.layout.shop_map_info);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mMapView = (MapView)findViewById(R.id.shopmapView);
+        mMapView.getController().enableClick(true);
+        mMapView.getController().setZoom(16);
+        mMapView.displayZoomControls(true);
+        mMapView.setDoubleClickZooming(true);
+        
+        
+        //参数获取
+        Intent intent1 = getIntent();//获得自身        
+        name=intent1.getStringExtra("name");
+        address=intent1.getStringExtra("address");
+        weidu=intent1.getStringExtra("weidu");
+        jingdu=intent1.getStringExtra("jingdu");
+        int weidu2=Integer.parseInt(weidu);
+        int jingdu2=Integer.parseInt(jingdu);
+        getSupportActionBar().setTitle(name);
+        if(weidu!=null && jingdu!=null){
+        	ptCenter=new GeoPoint(weidu2,jingdu2);
+        }else{
+        	ptCenter=new GeoPoint(41593304, 120448319);
+        }
+        getSupportActionBar().setTitle(name);
+        
+        // 初始化搜索模块，注册事件监听
+        mSearch = new MKSearch();
+        mSearch.init(app.mBMapManager, new MKSearchListener() {
+            @Override
+            public void onGetPoiDetailSearchResult(int type, int error) {
+            }
+            
+			public void onGetAddrResult(MKAddrInfo res, int error) {
+				if (error != 0) {
+					String str = String.format("错误号：%d", error);
+					Toast.makeText(ShopMapInfoActivity.this, str, Toast.LENGTH_LONG).show();
+					return;
+				}
+				mMapView.getController().animateTo(ptCenter);
+				Drawable marker = getResources().getDrawable(R.drawable.map_mark);  //得到需要标在地图上的资源
+				marker.setBounds(0, 0, marker.getIntrinsicWidth(), marker.getIntrinsicHeight());   //为maker定义位置和边界
+				mMapView.getOverlays().clear();
+				mMapView.getOverlays().add(new OverItemT(marker, ShopMapInfoActivity.this, ptCenter, res.strAddr,mMapView));
+				mMapView.refresh();
+			}
+			
+			public void onGetPoiResult(MKPoiResult res, int type, int error) {
+				
+			}
+			public void onGetDrivingRouteResult(MKDrivingRouteResult res, int error) {
+			}
+			public void onGetTransitRouteResult(MKTransitRouteResult res, int error) {
+			}
+			public void onGetWalkingRouteResult(MKWalkingRouteResult res, int error) {
+			}
+			public void onGetBusDetailResult(MKBusLineResult result, int iError) {
+			}
+			@Override
+			public void onGetSuggestionResult(MKSuggestionResult res, int arg1) {
+			}
+
+        });
+
+		//GeoPoint ptCenter = new GeoPoint(41593304, 120448319);//此处获取list传递过来的数据
+		mSearch.reverseGeocode(ptCenter);
+        
+	}
+	
+	@Override
+    protected void onDestroy() {
+        mMapView.destroy();
+        super.onDestroy();
+    }
+	
+	@Override
+    protected void onPause() {
+        mMapView.onPause();
+        super.onPause();
+    }
+    
+    @Override
+    protected void onResume() {
+        mMapView.onResume();
+        super.onResume();
+    }
+    
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+    	super.onSaveInstanceState(outState);
+    	mMapView.onSaveInstanceState(outState);
+    	
+    }
+    
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+    	super.onRestoreInstanceState(savedInstanceState);
+    	mMapView.onRestoreInstanceState(savedInstanceState);
+    }
+
+	class OverItemT extends ItemizedOverlay {
+		private List<OverlayItem> mGeoList = new ArrayList<OverlayItem>();
+
+		public OverItemT(Drawable marker, Context context, GeoPoint pt, String title,MapView mMapView) {
+			super(marker,mMapView);
+			OverlayItem item = new OverlayItem(pt, title, null);
+			mGeoList.add(item);
+			addItem(item);
+			//populate();
+		}
+        
+		@Override
+		protected OverlayItem createItem(int i) {
+			return mGeoList.get(i);
+		}
+
+		@Override
+		public int size() {
+			return mGeoList.size();
+		}
+		
+
+	}
+	@Override
+	public boolean onOptionsItemSelected(
+			com.actionbarsherlock.view.MenuItem item) {
+		// TODO Auto-generated method stub
+		int id = item.getItemId();
+		switch(id){
+		case android.R.id.home:
+			ShopMapInfoActivity.this.finish();            
+	         return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+	}
+}

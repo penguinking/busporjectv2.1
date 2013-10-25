@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ribbon_menu_home" android:title="中餐" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home2" android:title="西餐" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="川菜" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="鲁菜" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="粤菜" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="快餐" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="特色小吃" android:icon="@drawable/ic_launcher"></item>
+</menu>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/JakeWharton-ActionBarSherlock-e5c2d1c/library/res/drawable"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__activated_background_holo_dark.xml"
+   checksum="e12dac89b79740ce68920a3dc22081ac"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__activated_background_holo_light.xml"
+   checksum="e12dac89b79740ce68920a3dc22081ac"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__btn_cab_done_holo_dark.xml"
+   checksum="6835d4913959faa2d8fcabb49b4906cc"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__btn_cab_done_holo_light.xml"
+   checksum="cdb8979e68235b4a338606c2748b02e9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__ic_clear.xml"
+   checksum="616aa2c6759581d7f4f79cea733c48ba"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__ic_clear_holo_light.xml"
+   checksum="7f6d9cc23e678c04f8d05801464bc12b"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__ic_menu_moreoverflow_holo_dark.xml"
+   checksum="0edb5f9a6928895afe30fc1b15487578"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__ic_menu_moreoverflow_holo_light.xml"
+   checksum="bdb256ae90ce8fa9a0eac84365987b30"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__item_background_holo_dark.xml"
+   checksum="be12d27c17cebb24af28a4b0c762bd6a"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__item_background_holo_light.xml"
+   checksum="bc13be15a473f1d35ccab7e9165976dd"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_selector_background_transition_holo_dark.xml"
+   checksum="d65dac7b7ee6466a0727fe3a9c7d12af"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_selector_background_transition_holo_light.xml"
+   checksum="a63e448e5848ece24d7ccd44a415034f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_selector_holo_dark.xml"
+   checksum="303efb65042ffc67b11650455397660d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__list_selector_holo_light.xml"
+   checksum="fa9c4befe219eb4d8fa57044eae32311"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__progress_horizontal_holo_dark.xml"
+   checksum="2b0646db89d28230c1b21695a662dd1d"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__progress_horizontal_holo_light.xml"
+   checksum="7548b3e309cd73197cf2d5810fc83919"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__progress_medium_holo.xml"
+   checksum="696041fdde6a555b4e1bd4fe67e1a927"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__search_dropdown_dark.xml"
+   checksum="d53de18f0751dcb18bf806aec4b18928"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__search_dropdown_light.xml"
+   checksum="a61cb15ea08793b4e89ba5d11c4c3be9"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__spinner_ab_holo_dark.xml"
+   checksum="e8b51fdbad2cb8768b2a071593a14883"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__spinner_ab_holo_light.xml"
+   checksum="04bc85a53c89d7b5829f72cb08de12b8"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__tab_indicator_ab_holo.xml"
+   checksum="62cc009ec04b189cbee739bb5242d9cd"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__textfield_searchview_holo_dark.xml"
+   checksum="940c603f3e84316a1bf1c41418485b11"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__textfield_searchview_holo_light.xml"
+   checksum="ce1576406f792ddbb6fe9bbfe377ab2f"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__textfield_searchview_right_holo_dark.xml"
+   checksum="520edc56c49edc177d268bf9354f5874"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="abs__textfield_searchview_right_holo_light.xml"
+   checksum="09b448457772277ae7ca138642b05841"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/umeng_fb_rootId" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/topview" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/umeng_fb_goback_btn" android:background="@drawable/statelist_common_returnbutton" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/umeng_fb_conversation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="意见反馈" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerVertical="true" android:foregroundGravity="fill_vertical|center" />
+                <ImageButton android:id="@id/umeng_fb_see_list_btn" android:background="@drawable/umeng_fb_see_list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="2.0dip">
+                <TextView android:textSize="18.0dip" android:textColor="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您遇到的问题或者改进建议：" />
+                <EditText android:textColor="#ff737373" android:gravity="top" android:id="@id/umeng_fb_content" android:background="@drawable/edittext_bg" android:paddingLeft="9.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="2.0dip" android:hint="我们将为您不断改进" android:maxEms="10" android:minEms="10" />
+                <TextView android:textSize="18.0dip" android:textColor="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您的手机号码，邮箱或者QQ：" />
+                <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="2.0dip">
+                    <EditText android:id="@id/feedback_custom_contact" android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="2.0dip" android:hint="方便我们给你答复" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <Button android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/umeng_fb_submit" android:background="@drawable/cx_bg_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="提交" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

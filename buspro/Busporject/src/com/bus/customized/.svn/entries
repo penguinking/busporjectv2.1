@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src/com/bus/customized"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="31"
+   kind="dir"
+   committed-date="2013-05-15T13:03:04.509765Z"/>
+<entry
+   name="AlwaysMarqueeTextView.java"
+   checksum="962f3378886b75090e841e4e1a5295b2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="BusInfoView.java"
+   checksum="3bd65d20de649198fef89f3df615f81f"
+   last-author="liupeng"
+   committed-rev="31"
+   text-time="2013-05-15T13:03:04.000000Z"
+   kind="file"
+   committed-date="2013-05-15T13:03:04.509765Z"/>
+<entry
+   name="views"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/libs"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="54"
+   kind="dir"
+   committed-date="2013-05-17T08:39:59.076171Z"/>
+<entry
+   name="android-smart-image-view-1.0.0.jar"
+   checksum="6511aeac7e2f3e57128ebe86fce53635"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:01.000000Z"/>
+<entry
+   name="android-support-v4.jar"
+   checksum="c6c2148762c614d3bad120ca01491e34"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:04.000000Z"/>
+<entry
+   name="annotations.jar"
+   checksum="f2153c9de388e5a19808ed6eb3f63ad7"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:01.000000Z"/>
+<entry
+   name="armeabi"
+   kind="dir"/>
+<entry
+   name="asmack.jar"
+   checksum="120f28557ad23a5e899e850c720e1a23"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:02.000000Z"/>
+<entry
+   name="baidumapapi_v2_1_1.jar"
+   checksum="eea70d290e6b0c0e449fdc86755317f2"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:06.000000Z"/>
+<entry
+   name="imagecache.jar"
+   checksum="ef7c6b12f896255102fbb262f34f4e53"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:01.000000Z"/>
+<entry
+   name="locSDK_3.1.jar"
+   checksum="b92848acbcc4aa27312e2d03572e1f94"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   prop-time="2013-05-18T02:22:03.000000Z"/>
+</wc-entries>

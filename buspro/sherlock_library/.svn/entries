@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/JakeWharton-ActionBarSherlock-e5c2d1c/library"
+   committed-rev="45"
+   kind="dir"
+   committed-date="2013-05-16T08:09:40.350226Z"/>
+<entry
+   name=".classpath"
+   checksum="e6d803979fa22d15bdc6aad01f1a8900"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name=".project"
+   checksum="8bb12a623c33a78fca28c16377e3276d"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="AndroidManifest.xml"
+   checksum="52ae428c1fdec8ce802347495bded6c8"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="README.md"
+   checksum="791b4fef63079c022998b128b44da5eb"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   name="pom.xml"
+   checksum="fa48e5b9612d8a53dc13b9e61d45cbb9"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="project.properties"
+   checksum="909e676871357d08ea7f627c729ce922"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="test"
+   kind="dir"/>
+</wc-entries>

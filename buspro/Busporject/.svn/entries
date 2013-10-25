@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="liupeng"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus"
+   committed-rev="54"
+   kind="dir"
+   committed-date="2013-05-17T08:39:59.076171Z"/>
+<entry
+   name=".classpath"
+   checksum="e6d803979fa22d15bdc6aad01f1a8900"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name=".project"
+   checksum="df63e1a01c1d17800597157d8db48f5d"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="AndroidManifest.xml"
+   checksum="e714ef95c27e9584787ef5e6a4ca6f63"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="classes.dex"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   checksum="95ed45f973ede8a1a65d9e99818eceaf"
+   prop-time="2013-05-18T02:22:42.000000Z"/>
+<entry
+   name="classes.dex.dex2jar.jar"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   checksum="af807bd646b80d301f3d0709fd93500b"
+   prop-time="2013-05-18T02:21:44.000000Z"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="ic_launcher-web.png"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"
+   checksum="bca8a5efa7f346ceaf1054e44f00202c"
+   prop-time="2013-05-18T02:22:40.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   name="lint.xml"
+   checksum="1ce274a186a2afb9f76542702f6ecc4d"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="proguard-project.txt"
+   checksum="18bfe77c342b4698f1cef19cf8d918e2"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="proguard.cfg"
+   checksum="bec1efcef0f2c9b790a863a8a7d4e668"
+   last-author="liupeng"
+   text-time="2013-05-14T05:40:18.000000Z"
+   committed-rev="1"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="project.properties"
+   checksum="d950fffd0991b455ba117720093fab18"
+   last-author="lou"
+   text-time="2013-05-16T08:11:54.000000Z"
+   committed-rev="51"
+   kind="file"
+   committed-date="2013-05-16T08:11:54.508429Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

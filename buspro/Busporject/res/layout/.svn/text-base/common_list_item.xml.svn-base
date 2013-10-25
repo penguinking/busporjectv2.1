@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dip" >
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/queryimg"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip" />
+
+        <TextView
+            android:id="@+id/querytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/queryimg"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/querysummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/querytitle"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/queryimg"
+            android:gravity="center_vertical"
+            android:textColor="#474747"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+    <!-- *********************** -->
+    <!-- *** TOOLBAR LAYOUT **** -->
+    <!-- *********************** -->
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginBottom="-50dip"
+        android:visibility="gone" >
+
+        <RadioGroup
+            android:id="@id/functin_radio"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="bottom"
+            android:background="#404040"
+            android:divider="#BFBFBF"
+            android:dividerPadding="1dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/dial_btn"
+                style="@style/channel_list_bottom"
+                android:drawableTop="@drawable/channel_list_bottom_1"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/channel_list_bottom_1"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"/>
+
+            <RadioButton
+                android:id="@+id/map_btn"
+                style="@style/channel_list_bottom"
+                android:drawableTop="@drawable/channel_list_bottom_2"
+                android:gravity="center"
+                android:text="@string/channel_list_bottom_2"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"/>
+
+            <RadioButton
+                android:id="@+id/info_btn"
+                style="@style/channel_list_bottom"
+                android:checked="true"
+                android:drawableTop="@drawable/channel_list_bottom_4"
+                android:gravity="center"
+                android:text="@string/channel_list_bottom_4" 
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- 
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dip"
+            android:layout_toRightOf="@id/queryimg"
+            android:isIndicator="true"
+            android:progressDrawable="@drawable/rating_star"
+            android:rating="5.0" /> -->

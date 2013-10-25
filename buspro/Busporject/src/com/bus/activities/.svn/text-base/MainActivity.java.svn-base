@@ -1,0 +1,106 @@
+package com.bus.activities;
+
+import com.actionbarsherlock.app.SherlockActivity;
+
+import util.UpdateAd;
+import util.UpdateManager;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.TabActivity;
+import android.content.Intent;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.View;
+import android.view.Window;
+import android.widget.TabHost;
+import android.widget.Toast;
+
+public class MainActivity extends  TabActivity  {
+
+	TabHost tb;
+	private UpdateManager mUpdateManager;
+	private UpdateAd mUpdateAd;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		
+		
+		
+		setContentView(R.layout.maintabs);	
+		
+		
+		//这里来检测版本是否需要更新
+		//mUpdateManager = new UpdateManager(this);
+		//mUpdateManager.checkUpdateInfo();
+		
+		//更新广告
+		//mUpdateAd=new UpdateAd(this);
+		//mUpdateAd.checkUpdateInfo();
+
+		
+		tb = this.getTabHost();
+		
+		tb.addTab(tb.newTabSpec("tab1")		
+				.setIndicator("bus1")
+				.setContent(new Intent(this, TravelChannel.class)));		
+		tb.addTab(tb.newTabSpec("tab2")
+				.setIndicator("bus2")
+				.setContent(new Intent(this, LifeChannel.class)));
+		tb.addTab(tb.newTabSpec("tab3")
+				.setIndicator("bus3")
+				.setContent(new Intent(this, BusChannel.class)));
+		tb.addTab(tb.newTabSpec("tab4")
+				.setIndicator("bus4")
+				.setContent(new Intent(this, ShopChannel.class)));
+		tb.addTab(tb.newTabSpec("tab5")
+				.setIndicator("bus5")
+				.setContent(new Intent(this, CarChannel.class)));
+		tb.setCurrentTab(2);
+		
+	}
+
+	
+	
+	
+	public void goTab1(View  v)
+	{			
+		tb.setCurrentTab(0);		
+	}
+	public void goTab2(View  v)
+	{			
+		tb.setCurrentTab(1);		
+	}
+	public void goTab3(View  v)
+	{			
+		tb.setCurrentTab(2);		
+	}
+	public void goTab4(View  v)
+	{			
+		tb.setCurrentTab(3);		
+	}
+	public void goTab5(View  v)
+	{			
+		tb.setCurrentTab(4);		
+	}
+private long exitTime = 0;
+    
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK 
+                &&event.getAction() == KeyEvent.ACTION_DOWN){   
+            if((System.currentTimeMillis()-exitTime)>2000){  
+                Toast.makeText(getApplicationContext(), "再按一次退出程序", Toast.LENGTH_SHORT).show();                                
+                exitTime = System.currentTimeMillis();   
+            } else {
+                finish();
+                System.exit(0);
+            }
+            return true;   
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+		
+}

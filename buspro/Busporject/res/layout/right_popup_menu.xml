@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="244.0px" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rpm_botn" android:background="@drawable/hc_bg" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_alignParentBottom="true">
+        <Button android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/rpm_start_query" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:minWidth="70.0dip" android:text="查询" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rpm_start_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/rpm_start_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="出发点" />
+        <com.bus.customized.views.RoundedRectListView android:gravity="center_horizontal" android:id="@id/rpm_ListStart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:layout_marginBottom="2.0px" android:cacheColorHint="#00000000" android:maxHeight="90.0dip" android:minHeight="30.0dip" android:layout_below="@id/rpm_start_title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rpm_end_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:layout_above="@id/rpm_botn" android:layout_below="@id/rpm_start_frame">
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/rpm_end_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="目的地" />
+        <com.bus.customized.views.RoundedRectListView android:gravity="center_horizontal" android:id="@id/rpm_ListEnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:layout_marginBottom="2.0px" android:cacheColorHint="#00000000" android:minHeight="30.0dip" android:layout_below="@id/rpm_end_title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

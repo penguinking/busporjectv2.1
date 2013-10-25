@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src/util"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="49"
+   kind="dir"
+   committed-date="2013-05-16T08:11:15.742804Z"/>
+<entry
+   name="AsyncImageLoader.java"
+   checksum="f2f68178d6974ac725d735a10ada916e"
+   last-author="lou"
+   committed-rev="48"
+   text-time="2013-05-16T08:11:03.000000Z"
+   kind="file"
+   committed-date="2013-05-16T08:11:03.211554Z"/>
+<entry
+   name="Config.java"
+   checksum="92584c9827e71ada65607e9b841f1cf8"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="ImgUtil.java"
+   checksum="5069a17806ad1e17a049d12192b6e707"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="LoaderImpl.java"
+   checksum="b49b643cb58ae898a5ca071638a9e36e"
+   last-author="lou"
+   committed-rev="49"
+   text-time="2013-05-16T08:11:15.000000Z"
+   kind="file"
+   committed-date="2013-05-16T08:11:15.742804Z"/>
+<entry
+   name="NetTool.java"
+   checksum="ae9bc2221cb8f615d51cd8693d3949f5"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="UpdateAd.java"
+   checksum="0da13402c011fde418dfb96436f6b001"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="UpdateManager.java"
+   checksum="231d2f7e6985e79a8b73fadf637e7526"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="Utils.java"
+   checksum="6a7e58d19021a5900367b1f5a04bb057"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

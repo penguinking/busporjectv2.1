@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://221.202.84.168:8088/svn/Busproject"
+   name=""
+   revision="54"
+   last-author="lou"
+   url="http://221.202.84.168:8088/svn/Busproject/buspro/bus/bus/src/logic"
+   uuid="0bbe8728-f701-b544-bd66-2f8a462432d2"
+   committed-rev="15"
+   kind="dir"
+   committed-date="2013-05-14T14:21:28.119140Z"/>
+<entry
+   name="ICKLogic.java"
+   checksum="f642b5a7643026c15570d3673878222e"
+   last-author="lou"
+   committed-rev="15"
+   text-time="2013-05-14T14:21:28.000000Z"
+   kind="file"
+   committed-date="2013-05-14T14:21:28.119140Z"/>
+<entry
+   name="KeyunLogic.java"
+   checksum="e644bf87511f3e1f300b6715d6426275"
+   last-author="liupeng"
+   committed-rev="11"
+   text-time="2013-05-14T09:10:31.000000Z"
+   kind="file"
+   committed-date="2013-05-14T09:10:31.636718Z"/>
+<entry
+   name="RechangeLogic.java"
+   checksum="214a5f3c5bde644a83e4a95bf09db7c6"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="RouteLogic.java"
+   checksum="59f80c5a069f0c7dddc85c65393b77ee"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="StationLogic.java"
+   checksum="cc38a84a621af76517f8259ece8f40e1"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="StationLogic2.java"
+   checksum="5f0b86168fdf54d5e9e9b4bdeec3a3b3"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="UrlUtil.java"
+   checksum="952a7fe5d90b49bfea538c071b971f38"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+<entry
+   name="WaitLogic.java"
+   checksum="424b59f75e2bb80b630367459ab97edf"
+   last-author="liupeng"
+   committed-rev="1"
+   text-time="2013-05-14T05:40:18.000000Z"
+   kind="file"
+   committed-date="2013-05-14T05:40:18.691406Z"/>
+</wc-entries>

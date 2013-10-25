@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/start_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/start_bg" 
+        android:layout_weight="0.7">
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/common_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/start_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/start_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/common_ad2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/start_bottom" />
+
+    </RelativeLayout>
+
+</LinearLayout>
